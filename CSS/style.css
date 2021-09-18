@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #first-part{
@@ -142,4 +143,62 @@
 
 #third-section{
     height: 90vh;
+    position: relative;
+    display: block;
+}
+
+.vex-div{
+    height: 70vh;
+} 
+
+.pic-one{
+    position: relative;
+    padding: 20px;
+    left: 160px;
+    top: 20px;
+}
+
+.text-one{
+    position: relative;
+    text-align: end;
+    bottom: 320px;
+    right: 230px;
+    font-size: 40px;
+}
+
+.text-two{
+    position: relative;
+    text-align: end;
+    bottom: 300px;
+    right: 245px;
+    font-size: 33px;
+    color: #e71a23;
+    font-family: roboto,sans-serif;
+
+}
+
+.text-three{
+    width: 28%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    color: #111111;
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+}
+
+.pic-two{
+    position: relative;
+    padding: 20px;
+    left: 695px;
+    bottom: 300px;
+}
+
+#quality-vibe{
+    background: url(../IMG/billionphotos1079319min.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
