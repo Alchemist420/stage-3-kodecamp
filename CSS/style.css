@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12vh;
+    margin: auto;
+}
+
+.menu{
+    position: relative;
+    left: 1220px;
+    padding: 30px;
+}
+
+.logo{
+    position: relative;
+    right: 1160px;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    color: gainsboro;
+
+}
+
+#next-part{
+    background: url(../IMG/hero-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+}
+
+.text{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 65px;
+    font-weight: lighter;
+    position: relative;
+    top: 260px;
+    left: 100px;
+    width: 50%;
+}
+
+.text-next{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 95px;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 245px;
+    width: 50%;
+}
+
+.box{
+    height: 10px;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    top: 260px;
+    left: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    top: 290px;
+    left: 110px; 
+    align-items: center;
+}
+
+.swag{
+    color: white;
+    display: flex;
+    width: 50%;
+    
+}
+
+.new-text{
+    padding: 20px;
+    position: relative;
+    top: 85px;
+    right: 105px;
+    font-family: roboto,sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+#second-section{
+    height: 90vh;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.first-swag{
+    padding: 170px 60px 60px 60px;
+    color: gray;
+    font-family: roboto,sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.second-swag{
+    font-size: 45px;
+}
