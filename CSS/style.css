@@ -94,7 +94,7 @@
 }
 
 #second-section{
-    height: 90vh;
+    height: 80vh;
     background-color: #f5f5f5;
     text-align: center;
 }
@@ -105,19 +105,41 @@
     font-family: roboto,sans-serif;
     font-weight: 100;
     font-size: 19px;
+    text-align: center;
 }
 
 .second-swag{
     font-size: 45px;
     padding: 0px 60px 30px 60px;
     font-family: Roboto,sans-serif;
+    text-align: center;
 }
 
 .third-swag{
     width: 60%;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 1;
+    line-height: 1.6;
     position: relative;
     left: 270px;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.first-button{
+    height: 50px;
+    width: 140px;
+    background-color: #e71a23;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    border-style: solid;
+    border-color: #e71a23;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+#third-section{
+    height: 90vh;
 }
