@@ -4,104 +4,113 @@
     box-sizing: border-box;
 }
 
-#first-part{
+.row{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-part{
+    height: 10vh;
     justify-content: space-between;
-    height: 12vh;
-    margin: auto;
+    width: 100%;
 }
 
 .menu{
-    position: relative;
-    left: 1220px;
-    padding: 30px;
+    margin-right: 80px;
 }
 
-.logo{
-    position: relative;
-    right: 1160px;
-    padding: 15px;
+.first-part h1{
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 25px;
-    color: gainsboro;
-
+    font-size: 2rem;
+    color: #bcbcbc;
+    margin-left: 80px;
 }
 
-#next-part{
+.image-new{
+    justify-content: space-between;
+}
+
+.next-part{
     background: url(../IMG/hero-bg.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
+    min-height: 100vh;
     width: 100%;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .text{
     font-family: 'Roboto Mono', monospace;
     color: white;
-    font-size: 65px;
+    font-size: 68px;
     font-weight: lighter;
-    position: relative;
-    top: 260px;
-    left: 100px;
-    width: 50%;
+    width: 100%;;
 }
 
 .text-next{
     font-family: 'Archivo Black', sans-serif;
-    font-size: 95px;
+    font-size: 98px;
+    font-weight: bolder;
     color: white;
-    position: relative;
-    left: 100px;
-    top: 245px;
-    width: 50%;
+    width: 70%;
+    margin-bottom: 20px;
+    height: max-content;
 }
 
 .box{
     height: 10px;
     width: 45%;
     background-color: white;
-    position: relative;
-    top: 260px;
-    left: 100px;
+    border: solid white;
+    margin-bottom: 40px;
+} 
+
+.image-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    align-items: flex-start;
 }
 
 .images{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 50%;
-    position: relative;
-    top: 290px;
-    left: 110px; 
-    align-items: center;
+    width: 80%;
+    height: 50%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
 }
 
 .swag{
     color: white;
-    display: flex;
     width: 50%;
-    
 }
 
 .new-text{
-    padding: 20px;
-    position: relative;
-    top: 85px;
-    right: 105px;
+    padding: 20px 0;
     font-family: roboto,sans-serif;
     font-weight: 100;
     font-size: 18px;
 }
 
-#second-section{
-    height: 80vh;
+.second-section{
+    min-height: 80vh;
     background-color: #f5f5f5;
-    text-align: center;
+   text-align: center;
+   justify-content: space-around;
 }
 
 .first-swag{
-    padding: 170px 60px 30px 60px;
+    margin: 140px 0 0 0;
     color: gray;
     font-family: roboto,sans-serif;
     font-weight: 100;
@@ -111,7 +120,6 @@
 
 .second-swag{
     font-size: 45px;
-    padding: 0px 60px 30px 60px;
     font-family: Roboto,sans-serif;
     text-align: center;
 }
@@ -122,9 +130,6 @@
     font-size: 20px;
     font-weight: 1;
     line-height: 1.6;
-    position: relative;
-    left: 270px;
-    margin: 0 0 40px 0;
     text-align: center;
 }
 
@@ -139,66 +144,363 @@
     border-color: #e71a23;
     letter-spacing: 1px;
     border-radius: 3px;
+    margin: 0 0 40px 0;
 }
 
 #third-section{
-    height: 90vh;
-    position: relative;
-    display: block;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.vex-div{
-    height: 70vh;
-} 
-
-.pic-one{
-    position: relative;
-    padding: 20px;
-    left: 160px;
-    top: 20px;
-}
-
-.text-one{
-    position: relative;
-    text-align: end;
-    bottom: 320px;
-    right: 230px;
-    font-size: 40px;
-}
-
-.text-two{
-    position: relative;
-    text-align: end;
-    bottom: 300px;
-    right: 245px;
-    font-size: 33px;
-    color: #e71a23;
-    font-family: roboto,sans-serif;
-
+.third-wrap{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100%;
 }
 
 .text-three{
-    width: 28%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open sans', sans-serif;
+    font-size: 18px;
+    width: 85%;
     line-height: 1.6;
-    letter-spacing: 0.2px;
-    font-size: 16px;
-    color: #111111;
-    position: relative;
-    left: 280px;
-    bottom: 20px;
 }
 
-.pic-two{
-    position: relative;
-    padding: 20px;
-    left: 695px;
-    bottom: 300px;
+.cad-two, .cad-one{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
-#quality-vibe{
+.cad-one{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cad-two{
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cad-two h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.cad-two h2{
+    font-size: 2rem;
+    color: #e71a23;
+
+}
+.cad-one p{
+    padding: 4em 2em;
+}
+
+.pic-one, .pic-two{
+    width: 100%;
+    height: 100%;
+}
+
+.sect-xyz{
+    min-height: 100vh;
+    background-image: url(../IMG/g.jpg);
+}
+
+.quality-vibe {
+    max-width: 100%;
+}
+
+.quality-vibe div{
+    width: 45%;
+    text-align: left;
+    height: 100%;
+}
+
+.new-img{
     background: url(../IMG/billionphotos1079319min.png);
-    background-size: 100%;
+    min-height: 90vh;
+    background-position: 50% 0;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+}
+
+
+.others{
+    margin: auto;
+    width: 60%;
+}
+
+.restr-text{
+    width: 70%;
+    padding: 30px 0px 20px;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+
+.best-text{
+    font-family: roboto,sans-serif;
+    font-size: 70px;
+    position: relative;
+    right: 5px;
+    padding: 30px 0;
+    color: #104e92;
+    border-bottom: 10px solid red;
+}
+
+.book-but{
+    height: 50px;
+    width: 140px;
+    background-color: #e71a23;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    border-color: #e71a23;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.fourth-part{
+    height: 75vh;
+    align-items: flex-start;
+    margin-left: 7rem;
+}
+
+.display{
+ /*   margin: 70px 140px; */
+    justify-content: flex-start;
+}
+
+.service{
+    font-size: 50px;
+    font-family: 'roboto', sans-serif;
+}
+
+.round-img{
+    background: #e71a23;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 30px 10px ; 
+}
+
+.moove{
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.composed{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+.space{
+    align-items: flex-start;
+    width: 30%;
+    padding: 1em;
+}
+
+.sparks{
+    background: #e71a23;
+    color: white;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.screw{
+    background: #e71a23;
+    color: white;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+ .blue{
+    background-color: #104e92;
+    height: 85vh;
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.imagess{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    max-height: 80%;
+    max-width: 60%;
+    margin: auto;
+
+}
+
+
+.image-1{
+    background: url(../IMG/frg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 230px;
+}
+
+.image-2{
+    background: url(../IMG/rg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 230px;
+}
+
+.image-3{
+    background: url(../IMG/billionphotos1882993.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 230px;
+}
+
+.image-4{
+    background: url(../IMG/billionphotos1882951.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 230px;
+}
+
+.texts{
+    max-width: 40%;
+    margin: auto;
+}
+
+.two{
+    font-family: Roboto,sans-serif;
+    font-size: 100px;
+    color: white;
+    line-height: 1;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.bold{
+    font-size: 100px;
+    font-weight: 550;
+    font-family: Roboto,sans-serif;
+    color: white;
+}
+
+.one{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#final{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rbt-text{
+    font-family: Roboto,sans-serif;
+    font-size: 36px;
+    word-wrap: break-word;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.ops-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    word-wrap: wrap;
+    padding: 20px 0;
+    font-weight: 100px;
+    line-height: 1.6;
+    margin: auto;
+}
+
+.buttonss{
+    margin-top: 20px;
+}
+
+.bt-one{
+    height: 50px;
+    width: 140px;
+    background-color: #e71a23;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    border-color: #e71a23;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.bt-two{
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    color: grey;
+    font-weight: 700;
+    border-style: solid;
+    border-color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+@media(max-width: 770px) {
+    .next-part{
+        min-width: 100%;
+        background-size: cover;
+        max-height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    .text{
+        font-size: 34px;
+    }
+
+    .text-next{
+        font-size: 49px;
+    }
+
+    .first-swag{
+        margin: 70px 0 0 0;
+    }
+
+    .cad-two h1{
+        font-size: 1.8rem;
+    }
+
+    .cad-two h2{
+        font-size: 1.8rem;
+    }
+
+    .cad-one p{
+        padding: 2em 1em;
+        font-size: 1rem;
+        width: 100%;
+    }
 }
