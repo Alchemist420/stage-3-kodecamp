@@ -222,9 +222,9 @@
 
 .new-img{
     background: url(../IMG/billionphotos1079319min.png);
-    min-height: 90vh;
-    background-position: 50% 0;
-    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -235,7 +235,7 @@
 }
 
 .restr-text{
-    width: 70%;
+    width: 90%;
     padding: 30px 0px 20px;
     font-size: 21px;
     font-family: 'Open Sans', sans-serif;
@@ -268,19 +268,19 @@
 }
 
 .fourth-part{
-    height: 75vh;
+    height: 80vh;
     align-items: flex-start;
-    margin-left: 7rem;
+    margin-left: 8.5rem;
 }
 
 .display{
- /*   margin: 70px 140px; */
     justify-content: flex-start;
 }
 
 .service{
     font-size: 50px;
     font-family: 'roboto', sans-serif;
+    margin-left: 10px;
 }
 
 .round-img{
@@ -342,7 +342,6 @@
     margin: auto;
 
 }
-
 
 .image-1{
     background: url(../IMG/frg.jpg);
@@ -503,4 +502,63 @@
         font-size: 1rem;
         width: 100%;
     }
+
+    .best-text{
+        font-size: 45px;
+        border-bottom: 5px solid red;
+        padding: 15px 0;
+    }
+
+    .restr-text{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .fourth-part{
+        height: 90vh;
+        margin-left: 5rem;
+    }
+
+    .space{
+        margin-right: 1.5em;
+    }
+
+    .composed{
+        width: 110%;
+    }
+
+    .blue{
+        height: 124vh;
+        display: flex;
+        flex-direction: column
+    }
+
+    .two{
+        font-size: 60px;
+        margin-right: 20px;
+    }
+
+    .texts{
+        max-width: 80%;
+        max-height: 20%;
+        margin: 50px 20px 20px 20px;
+
+    }
+
+    .bold{
+        font-size: 60px;
+    }
+
+    .swish{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagess{
+        margin: 20px;
+        max-width: 80%;
+    }
+
+
 }
