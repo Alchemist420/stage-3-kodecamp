@@ -52,7 +52,7 @@
     color: white;
     font-size: 68px;
     font-weight: lighter;
-    width: 100%;;
+    width: 100%;
 }
 
 .text-next{
@@ -215,14 +215,14 @@
 }
 
 .quality-vibe div{
-    width: 45%;
+    min-width: 45%;
     text-align: left;
-    height: 100%;
+    max-height: 100%;
 }
 
 .new-img{
     background: url(../IMG/billionphotos1079319min.png);
-    min-height: 100vh;
+    height: 100vh;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -503,6 +503,14 @@
         width: 100%;
     }
 
+    .new-img{
+        padding: 50px 0 0 0;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+    }
+
     .best-text{
         font-size: 45px;
         border-bottom: 5px solid red;
@@ -559,6 +567,190 @@
         margin: 20px;
         max-width: 80%;
     }
+}
 
+@media(max-width: 330px) {
+    .menu{
+        margin-right: 20px;
+    }
 
+    .first-part h1{
+        margin-left: 20px;
+    }
+
+    .next-part{
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -450px;
+    }
+
+    .image-new{
+        display: none;
+    }
+
+    .images{
+        height: 100%;
+        justify-content: flex-end;
+        margin: 400px 20px 0;
+        width: 80%;
+    }
+
+    .text{
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .text-next{
+        margin-bottom: 10px;
+    }
+
+    .box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .first-swag{
+        margin: 40px 0 0 0;
+    }
+
+    .second-swag{
+        font-size: 35px;
+    }
+
+    .third-swag{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .third-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic-one, .pic-two{
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+    }
+
+    .cad-one, .cad-two{
+        width: 90%;
+    }
+
+    .cad-one p{
+        padding: 1em;
+    }
+
+    .cad-two h1{
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .cad-two h2{
+        font-size: 1.3rem;
+    }
+
+    .quality-vibe{
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    .sect-xyz{
+        height: 110vh;
+    }
+
+    .new-img{
+        height: 60vh;
+        width: 80%;
+        background-position: center;
+        background-size: contain;
+        padding: 0;
+    }
+
+    .best-text{
+        font-size:38px ;
+        text-align: left;
+    }
+
+    .others{
+        width: 80%;
+        align-items: center;
+    }
+
+    .restr-text{
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .book-but{
+        margin: 0 20%;
+    }
+
+    .fourth-part{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        min-height: 200vh;
+    }
+
+    .service{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .display{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .space{
+        width: 90%;
+        height: 20vh;
+        margin: 110px 0;
+    }
+
+    .round-img{
+        margin: 20px 0;
+    }
+
+    .blue{
+        display: flex;
+        flex-direction: column;
+        min-height: 220vh;
+    }
+
+    .texts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swish{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+    }
+
+    .imagess{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one{
+        margin-bottom: 20px;
+    }
+
+    .rbt-text{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .ops-txt{
+        font-size: 20px;
+        width: 90%;
+    }
 }
