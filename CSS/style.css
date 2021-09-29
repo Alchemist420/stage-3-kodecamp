@@ -472,7 +472,6 @@
     .next-part{
         min-width: 100%;
         background-size: cover;
-        max-height: 100vh;
         background-repeat: no-repeat;
     }
 
