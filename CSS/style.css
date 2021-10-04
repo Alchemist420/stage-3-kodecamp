@@ -619,12 +619,17 @@
     }
 
     .second-swag{
-        font-size: 35px;
+        font-size: 40px;
+        width: 70%;
     }
 
     .third-swag{
-        width: 80%;
-        font-size: 15px;
+        width: 78%;
+        font-size: 20px;
+    }
+
+    .first-button{
+        margin: 0 0 20px 0;
     }
 
     .third-wrap{
