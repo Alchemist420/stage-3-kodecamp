@@ -268,7 +268,7 @@
 }
 
 .fourth-part{
-    height: 80vh;
+    height: 100vh;
     align-items: flex-start;
     margin-left: 8.5rem;
 }
@@ -327,7 +327,7 @@
 
  .blue{
     background-color: #104e92;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     max-width: 100%;
 }
@@ -484,7 +484,6 @@
     }
 
     .first-swag{
-        margin: 70px 0 0 0;
     }
 
     .cad-two h1{
@@ -522,15 +521,21 @@
 
     .fourth-part{
         height: 90vh;
-        margin-left: 5rem;
+        margin: 0 5rem;
     }
 
     .space{
-        margin-right: 1.5em;
+        margin: 0 1.2em;
+        height: 20%;
+        width: 100%;
     }
 
+    .display: {
+        width: 100%;
+    };
+
     .composed{
-        width: 110%;
+        width: 100%;
     }
 
     .blue{
@@ -541,7 +546,7 @@
 
     .two{
         font-size: 60px;
-        margin-right: 20px;
+        padding-right: 20px;
     }
 
     .texts{
@@ -569,11 +574,11 @@
 
 @media(max-width: 430px) {
     .menu{
-        margin-right: 20px;
+        padding-right: 20px;
     }
 
     .first-part h1{
-        margin-left: 20px;
+        padding-left: 20px;
     }
 
     .next-part{
@@ -684,40 +689,52 @@
     }
 
     .book-but{
-        margin: 0 20%;
+        margin:;
     }
 
     .fourth-part{
         display: flex;
         flex-direction: column;
-        margin: 20px;
-        min-height: 200vh;
+        margin: 10px;
+        min-height: 100vh;
+        align-items: center;
     }
 
     .service{
         text-align: center;
-        font-size: 35px;
+        font-size: 28px;
+        padding-top: 15px;
     }
 
     .display{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     .space{
         width: 90%;
-        height: 20vh;
-        margin: 110px 0;
+        height: 32%;
+        margin: 2px 0;
     }
 
     .round-img{
-        margin: 20px 0;
+        margin: 4px 0;
+        padding: 5px;
+    }
+
+    .moove{
+        font-size: 20px;
+    }
+
+    .composed{
+        font-size: 15px;
     }
 
     .blue{
         display: flex;
         flex-direction: column;
-        min-height: 220vh;
+        min-height: 100vh;
     }
 
     .texts{
@@ -736,6 +753,22 @@
     .imagess{
         display: flex;
         flex-direction: column;
+        height: 65%;
+        width: 40%;
+        background-size: contain;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .image-2{
+        background-size: cover;
+        background-position-y: top;
+    }
+
+    .image-3{
+        background-size: cover;
+        background-position-y: 30%;
     }
 
     .one{
