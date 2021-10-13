@@ -16,6 +16,10 @@
     flex-direction: column;
 }
 
+.pad{
+    padding: 15px;
+}
+
 .first-part{
     height: 10vh;
     justify-content: space-between;
@@ -247,7 +251,6 @@
     letter-spacing: 0.5px;
 }
 
-
 .best-text{
     font-family: roboto,sans-serif;
     font-size: 70px;
@@ -270,9 +273,8 @@
 }
 
 .fourth-part{
-    height: 80vh;
     align-items: flex-start;
-    padding: 7.5rem;
+    padding: 4rem;
     max-width: 100%;
 }
 
@@ -305,7 +307,7 @@
 .composed{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
     font-weight: lighter;
 }
@@ -313,7 +315,7 @@
 .space{
     align-items: flex-start;
     width: 100%;
-    padding: 1em;
+    padding: 1em 1.5em;
 }
 
 .sparks{
@@ -410,7 +412,6 @@
 }
 
 .final{
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,19 +426,19 @@
     text-align: center;
     padding: 20px;
     letter-spacing: 1px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .ops-txt{
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    width: 50%;
+    width: 65%;
     text-align: center;
     word-wrap: wrap;
     padding: 20px 0;
     font-weight: 100px;
     line-height: 1.6;
-    margin: auto;
+    margin: 0 auto 20px;
 }
 
 .buttonss{
@@ -541,7 +542,6 @@
     .blue{
         display: flex;
         flex-direction: column;
-     /*   height: 100vh; */
         align-items: flex-start;
     }
 
@@ -566,9 +566,6 @@
         font-size: 60px;
     }
 
-    .imagess{
-        width: 69%;
-    }
 
     .image-1{
         width: 250px;
@@ -717,6 +714,7 @@
 
     .blue{
         height: fit-content; 
+        padding: 15px;
     }
 
     .two, .bold{
@@ -726,7 +724,6 @@
     .one{
         font-weight: lighter;
     }
-
     
     .imagess{
         display: flex;
@@ -741,16 +738,23 @@
     }
 
     .final{
-        height: 100vh;
-    }
-
-    .imagess{
-        width: 60%;
+        height: fit-content;
     }
 
     .ops-txt{
         width: 90%;
     }
+
+    .buttonss{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bt-one, .bt-two{
+        margin-bottom: 25px;
+    }
+
+
 }
 
 @media screen and (max-width: 378px) {
